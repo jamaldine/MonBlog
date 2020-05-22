@@ -1,0 +1,36 @@
+<div class="new">
+	<h3 style="font-family: serif">Nouveau Post :
+		<button id="jeSuisB" class="btn btn-default btn-circle pull-right haut" (click)="retourPosts()"> <i class="fas fa-times"></i></button>
+	</h3>
+	<div class="row">
+		<div class="col-xs-12">
+		    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+		    	<!-- Default unchecked -->
+				<div class="custom-control custom-checkbox">
+				    <input type="checkbox" class="custom-control-input" id="defaultUnchecked" checked>
+				    <label class="custom-control-label" for="defaultUnchecked">
+				    	<span class="love">J'aime mon post</span>
+				    </label>
+				</div>
+				<!-- Default unchecked -->
+				<div class="form-group">
+				    <label for="name">
+				      Titre <span>*</span>
+				    </label>
+				    <input type="text" id="name" class="form-control" name="title" ngModel required>
+				</div>
+				<div class="form-group">
+				    <label for="status">
+				      Contenu <span>*</span>
+				    </label>
+				     <i class="fas fa-pen pull-right"></i>
+				    <textarea id="msg" rows="12" class="form-control" name="content" ngModel required>
+				    	
+				    </textarea>
+				</div>
+
+				<button class="btn btn-primary pull-right" type="submit" [disabled]="f.invalid">Sauvegarder</button>
+			</form>
+		</div>
+	</div>
+</div>

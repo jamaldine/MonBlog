@@ -1,5 +1,19 @@
-<app-post-list-item [title]="title"
-						[content]="content"
-						[created_at]="created_at"
-						[loveIts]="loveIts">
+<!--h2 style="font-family: Georgia; margin-bottom: 16px">Posts: npm install rxjs-compat --save </h2-->
+<div style="border:1px solid #CFCFCF; margin-left: -60px;margin-bottom: 20px; height: 150px;background-color: white">
+	<div style="padding-top: 50px; padding-left: 25px; font-size: 17px">
+		<button style="border:0px solid white; background-color: white" (click)="onDeletePost()">
+			<i class="fas fa-edit"></i> <span style="font-weight: bold; padding-left: 7px;">Commencer un post</span>
+		</button>
+	</div>
+	<div style="border-top:1px solid #CFCFCF; margin-top: 30px;padding-top: 10px">
+		<span style="padding-left: 20px;color: #D80000;font-weight: bold;">Écrivez un article sur Blog</span>
+	</div>	
+</div>
+<app-post-list-item *ngFor="let post of Posts"
+						[title]="post.title"
+						[content]="post.content"
+						[created_at]="post.created_at"
+						[loveIts]="post.loveIts"
+						[id]="post.id"
+						>
 </app-post-list-item>

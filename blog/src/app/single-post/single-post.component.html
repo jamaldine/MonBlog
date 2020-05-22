@@ -1,0 +1,46 @@
+<div style="margin-left: -60px;">
+	<li style="padding-bottom: 70px;" [ngClass]="{'list-group-item': true,
+	                'list-group-item-success': loveIts > 0,
+	                'list-group-item-danger': loveIts < 0 }">
+	    
+
+		<h3 style="font-family:emoji;color:black">{{title | uppercase}} n°: {{id}}
+			<span class="pull-right">{{created_at | date: 'short'}}</span>
+		
+		</h3>
+		<p style="">
+			{{content}}
+		</p>
+		<button class="btn btn-danger pull-right" (click)="onDeletePost(id)" style="margin-top: 25px;">		supprimer
+		</button>
+	</li>
+	<a routerLink="/posts">Retour à la liste</a>
+
+	<h6>Espace commentaires: </h6>
+
+	<div [ngClass]="{'list-group-item': true}" class='comment'>
+		<div class="row">
+			<div class="col-xs-2">
+				<button class="btn btn-circle" style="background-color: white" (click)="onLove(id)" >
+					<i class="fas fa-thumbs-up"> <span class="spanComment"> j'aime</span></i>
+				</button>
+			</div>
+			<div class="col-xs-3">
+				<button class="btn btn-circle" style="background-color: white" (click)="onDontLove(id)" >
+					<i class="fas fa-thumbs-down"> <span class="spanComment"> j'aime pas</span></i>
+				</button>
+			</div>
+			<div class="col-xs-3">
+				<button class="btn btn-circle" style="background-color: white">
+					<i class="fas fa-comment-medical"> <span class="spanComment"> Commenter</span></i>
+				</button>
+			</div>
+			<div class="col-xs-2">
+				<button class="btn btn-circle pull-right" style="background-color: white">
+					<i class="fas fa-share-square"> <span class="spanComment"> Partager</span></i>
+				</button>
+			</div>
+			
+		</div>
+	</div>
+</div>
