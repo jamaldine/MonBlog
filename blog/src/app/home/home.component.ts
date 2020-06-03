@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   constructor(private posts : posts) { }
   nbrPosts:number=0;
   Posts:Post[]=[];
-  postsSubscription: Subscription; 
+  postsSubscription: Subscription;
 
   ngOnInit() {
 

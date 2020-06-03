@@ -11,6 +11,7 @@ import { NewPostComponent } from './new-post/new-post.component';
 import { SinglePostComponent } from './single-post/single-post.component';
 import { HomeComponent } from './home/home.component';
 import { AsideComponent } from './aside/aside.component';
+import { HeaderComponent } from './header/header.component';
 
 const appRoutes: Routes = [
   { path: 'new', component: NewPostComponent },
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
     NewPostComponent,
     SinglePostComponent,
     HomeComponent,
-    AsideComponent
+    AsideComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

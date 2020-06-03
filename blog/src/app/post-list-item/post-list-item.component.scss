@@ -1,20 +1,19 @@
-.dontLove{
-	margin-left: 5px;
+.dontLove {
+  margin-left: 5px;
 }
-.dateCreation{
-	font-size: 11px;
-	color: gray;
+.dateCreation {
+  font-size: 11px;
+  color: gray;
 }
-p{
-	font-family:fantasy; 
-	color: black;
-	text-align: justify; 
-	font-size:15px; 
-	margin-top: 15px;
-	padding-bottom:10px;
-	border-bottom-right-radius:0px;
-	border-bottom-left-radius:0px;
-
+p {
+  font-family: fantasy;
+  color: black;
+  text-align: justify;
+  font-size: 15px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 .btn-circle {
   width: 30px;
@@ -26,59 +25,97 @@ p{
   border-radius: 15px;
 }
 .btn-circle.btn-xl {
-	width: 70px;
+  width: 70px;
   height: 70px;
   padding: 10px 16px;
   font-size: 24px;
   line-height: 1.33;
   border-radius: 35px;
 }
-li{
-	border: 0px solid white;
-	margin-top:5px;
-	border-bottom-right-radius:0px;
-	border-bottom-left-radius:0px;
-	
-	margin-left:-15px;
-	margin-right:-15px;
+li {
+  border: 0px solid white;
+  margin-top: 5px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 
-
-
+  margin-left: -15px;
+  margin-right: -15px;
 }
-.comment{
-	padding-bottom:-55px;
-	border-right: 0px solid white;
-	border-left: 0px solid white;
-	border: 0px solid white;
+.comment {
+  padding-bottom: -55px;
+  border-right: 0px solid white;
+  border-left: 0px solid white;
+  border: 0px solid white;
 }
-.spanComment{
-	font-family: Helvetica;
-	font-weight: bold;
+.spanComment {
+  font-family: Helvetica;
+  font-weight: bold;
 }
 
-.mesPosts{
-	border-left: 0px solid white;
-	border-right: 0px solid white;
-	border-bottom: 2px solid #CFCFCF;
-	border-radius:0px;
-	padding-bottom:45px;
+.mesPosts {
+  border-left: 0px solid white;
+  border-right: 0px solid white;
+  border-bottom: 2px solid #cfcfcf;
+  border-radius: 0px;
+  padding-bottom: 45px;
 }
-.fragment{
-	margin-top: 0px;
-	margin-left:-63px;
+.fragment {
+  margin-top: 0px;
+  margin-left: -63px;
 }
-.pull-space{
-	padding-left:90px;
+.pull-space {
+  padding-left: 90px;
 }
-.profession{
-	margin-left:21px;
-	color:gray;
+.profession {
+  margin-left: 21px;
+  color: gray;
 }
-.name{
-	margin-left:21px;
-	font-weight:bold;
+.name {
+  margin-left: 21px;
+  font-weight: bold;
 }
-.date{
-	margin-left:21px;
-	color:gray;
+.date {
+  margin-left: 21px;
+  color: gray;
+}
+.pointer {
+  cursor: pointer;
+}
+.tag_love {
+  padding-left: 12px;
+  padding-top: 8px;
+  margin-bottom: -23px;
+  padding-bottom: 5px;
+}
+.actions {
+
+}
+.border {
+  border: 1px black solid;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: baseline;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.first_item {
+  flex: 3;
+}
+.econd_item {
+  flex: 1;
+}
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.fa-heart, .fa-gratipay {
+  color: red;
+  background-color: blue($color: #000000);
 }

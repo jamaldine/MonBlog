@@ -17,6 +17,10 @@ export class PostListItemComponent implements OnInit {
 	@Input() loveIts:number;
 	@Input() id:number;
 
+	tagLove(){
+		if(this.loveIts) return this.loveIts;
+		else return null;
+	}
 	onLove(n:number){
 		this.loveIts=this.loveIts+1;
 		this.post.Love(n);

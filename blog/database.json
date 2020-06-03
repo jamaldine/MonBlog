@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "author": "Officia amet ullamco ea incididunt ex.",
+      "title": "Do duis duis deserunt voluptate aliqua ad mollit est ea est eiusmod esse Lorem laboris. Tempor nulla non deserunt labore anim exercitation consectetur nostrud laborum. Velit aute irure Lorem sint. Dolor et quis aute esse irure exercitation. Occaecat non exercitation ea dolor do pariatur enim id. Irure reprehenderit dolor amet elit esse id veniam nostrud.",
+      "visible": true,
+      "id": 3,
+      "createdAt": "",
+      "modifiedAt": "",
+      "like":0,
+      "dontLike":0,
+      "share":0,
+      "follow":0,
+      "profileId":"2"
+    }
+  ],
+  "comments": [
+    {
+      "body": "Khadija",
+      "description": "",
+      "country": "",
+      "postId": 3,
+      "id": 7,
+      "createdAt": "",
+      "modifiedAt": ""
+    }
+  ],
+  "profile": {
+    "name": "typicode",
+    "id":"2",
+    "isConnected": true,
+    "lastConnexion":"Now"
+  }
+}
