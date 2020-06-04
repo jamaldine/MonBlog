@@ -1,52 +1,92 @@
-.home{
-	border:1px solid #CFCFCF;
-	text-align:center;
-	margin-top:62px;
-	
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.home {
+  border: 1px solid #cfcfcf;
+  text-align: center;
+  margin-top: 62px;
+  width: 290px;
 }
 .btn-circle.btn-xl {
-	width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   padding: 10px 16px;
   font-size: 24px;
   line-height: 1.33;
-  border-radius: 35px;
-  margin-top:-50px;
+  border-radius: 50px;
+  margin-top: -70px;
 }
-.separate{
-	background-color: #DC143C;
-	margin:0px;
-	padding:0px;
-	height:80px;
-	margin-bottom:15px;
+.separate {
+  background-color: #dc143c;
+  margin: 0px;
+  padding: 0px;
+  height: 80px;
+  margin-bottom: 15px;
 }
-.name{
-	padding-top:16px;
-	font-weight:bold;
-	padding-bottom:7px;
+.name {
+  padding-top: 16px;
+  font-weight: bold;
+  padding-bottom: 7px;
+  font-size: large;
+  font-weight: bolder;
 }
-.profession{
-	color:gray;
-	background-color:white;
+.profil {
+  color: #b100a2;
+  background-color: white;
+  cursor: pointer;
 }
-p{
-	font-family:fantasy; 
-	color: #707070;
-	font-weight:bold;
-	padding-left:10px;
-	text-align: justify; 
-	font-size:15px; 
-	margin-top: 15px;
-	padding-bottom:10px;
-	border-bottom-right-radius:0px;
-	border-bottom-left-radius:0px;
-	border-top:1px solid #CFCFCF;
-	padding-top:25px;
-	background-color:white;
+p {
+  font-family: fantasy;
+  font-weight: bold;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top: 1px solid #cfcfcf;
+  padding-top: 25px;
+  background-color: white;
 }
-span{
-	color:#DC143C;
-	font-weight:bold;
-	padding-left:60px;
-	padding-right:5px;
+span {
+  color: #dc143c;
+  font-weight: bold;
+  padding-left: 60px;
+  padding-right: 5px;
+}
+.marg_l-60 {
+  margin-left: 60px;
+}
+.border {
+  border: 1px solid black;
+}
+.bold {
+  font-weight: bold;
+}
+.marg-5 {
+  margin: 6px;
+}
+.marg_b_5 {
+  margin-bottom: 30px;
+}
+a {
+  color: #000000;
+}
+.gray {
+  color: gray;
+}
+.marg_l-0 {
+  margin-left: -0px;
+}
+.pad_l-10 {
+  padding-left: 10px;
+}
+.white {
+  background-color: red;
+  color: white;
 }

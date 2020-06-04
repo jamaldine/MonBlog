@@ -9,20 +9,6 @@ export class posts{
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ligula dolor, vestibulum vitae neque vitae, ornare dictum nunc. Suspendisse aliquet ipsum in vestibulum placerat. Morbi lacus risus, viverra nec magna eget, pretium dapibus dolor. Curabitur maximus lacinia orci, eget placerat diam fermentum quis. Morbi libero felis, accumsan vel lorem et, consequat tincidunt nulla. Mauris sed sodales tortor. Praesent vitae ipsum congue, varius ipsum a, pulvinar mi. Praesent a velit lectus. Curabitur ac ante vitae neque tincidunt facilisis. Nullam ultricies quam sit amet dui pellentesque, non tempor justo euismod. Maecenas pellentesque malesuada ultrices. Nam non ante massa. Maecenas non fermentum risus, eu gravida ligula.', 
 			0, 
 			new Date
-		),
-		new Post(
-			1, 
-			'Nunc lobortis', 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ligula dolor, vestibulum vitae neque vitae, ornare dictum nunc. Suspendisse aliquet ipsum in vestibulum placerat. Morbi lacus risus, viverra nec magna eget, pretium dapibus dolor. Curabitur maximus lacinia orci, eget placerat diam fermentum quis. Morbi libero felis, accumsan vel lorem et, consequat tincidunt nulla. Mauris sed sodales tortor. Praesent vitae ipsum congue, varius ipsum a, pulvinar mi. Praesent a velit lectus. Curabitur ac ante vitae neque tincidunt facilisis. Nullam ultricies quam sit amet dui pellentesque, non tempor justo euismod. Maecenas pellentesque malesuada ultrices. Nam non ante massa. Maecenas non fermentum risus, eu gravida ligula.', 
-			0, 
-			new Date
-		),
-		new Post(
-			2, 
-			'fermentum', 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ligula dolor, vestibulum vitae neque vitae, ornare dictum nunc. Suspendisse aliquet ipsum in vestibulum placerat. Morbi lacus risus, viverra nec magna eget, pretium dapibus dolor. Curabitur maximus lacinia orci, eget placerat diam fermentum quis. Morbi libero felis, accumsan vel lorem et, consequat tincidunt nulla. Mauris sed sodales tortor. Praesent vitae ipsum congue, varius ipsum a, pulvinar mi. Praesent a velit lectus. Curabitur ac ante vitae neque tincidunt facilisis. Nullam ultricies quam sit amet dui pellentesque, non tempor justo euismod. Maecenas pellentesque malesuada ultrices. Nam non ante massa. Maecenas non fermentum risus, eu gravida ligula.', 
-			0, 
-			new Date
 		)
 	];
 
