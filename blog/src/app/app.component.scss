@@ -1,10 +1,32 @@
-.addPost{
-	font-size:20px;
+.addPost {
+  font-size: 20px;
 }
-.logo{
-	font-weight:bold;
-	margin-left:170px;
+.logo {
+  font-weight: bold;
+  margin-left: 170px;
 }
-.navbar-brand{
-	height:60px;
+.navbar-brand {
+  height: 60px;
+}
+.left-0 {
+  margin-left: -200px;
+}
+.right-0 {
+  margin-right: 200px;
+}
+.left-x {
+	margin-left: 270px;
+	width: 100px;
+	border: 5px solid blue;
+}
+.midle-x{
+  margin-left: 660px;
+  width: 670px;
+
+}
+.right-x{
+ float: right;
+ margin-top: -680px;
+ margin-right: 690px;
+ 
 }

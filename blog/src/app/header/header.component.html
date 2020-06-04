@@ -1,22 +1,82 @@
 <nav class="navbar-fixed-top navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">   
+  <div class="container-fluid">
+    <div class="flex">
+      <div class="navbar-header border">
         <a class="navbar-brand" routerLink="posts">
-          <span class="logo"></span>
-          <i class="fas fa-home"></i>
-          <div style="margin-left: 159px;">BOUKIR</div>
+          <i class="fab fa-bootstrap"></i>
         </a>
       </div>
-      <div class="navbar-collapse" >
-        <ul class="nav navbar-nav" style="padding-left: 185px;">
+      <div class="search">
+        <form class="form-inline my-2 my-lg-0">
+          
+          <input
+            class="form-control mr-sm-2 size_search"
+            type="search"
+            placeholder="{{search}}Search"
+            aria-label="Search"
+          />
+        </form>
+      </div>
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="posts">
+         
+          <i class="fas fa-home"></i>
+          <div>Acceueil</div>
+        </a>
+      </div>
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="posts">
+          <i class="fas fa-home"></i>
+          <div >Réseau</div>
+        </a>
+      </div>
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="posts">
+          <i class="fas fa-home"></i>
+          <div >Emploi</div>
+        </a>
+      </div>
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="posts">
+          <i class="fas fa-home"></i>
+          <div>Messagerie</div>
+        </a>
+      </div>
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="posts">
+          <i class="fas fa-home"></i>
+          <div>Notifications</div>
+        </a>
+      </div>
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="posts">
+          <i class="fas fa-home"></i>
+          <div>Vous</div>
+        </a>
+      </div>
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="posts">
+          <i class="fas fa-home"></i>
+          <div>Produits</div>
+        </a>
+      </div>
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="posts">
+          <i class="fas fa-home"></i>
+          <div>Premium</div>
+        </a>
+      </div>
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav">
           <li routerLinkActive="active">
             <a routerLink="new">
               <span class="addPost"></span>
               <i class="fas fa-home"></i>
-              <div style="margin-left: -15px;">nouveau</div>
+              <div>nouveau</div>
             </a>
           </li>
         </ul>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
