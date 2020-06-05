@@ -1,16 +1,22 @@
 .flex {
-    display: flex;
-    align-items: center;
-    margin-left: 265px;
-    margin-right: 100px;
+  display: flex;
+  align-items: center;
+  margin: 15px 100px 15px 265px;
 }
-.border{
-    border: 1px solid whitesmoke;
+.border {
+  border: 1px solid whitesmoke;
 }
 .search {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 .size_search {
-    width: 370px;
-    height: 50px;
+  width: 370px;
+  height: 50px;
+}
+.flex_col{
+  border: solid 1 px black;
+  margin: 0px 0px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
